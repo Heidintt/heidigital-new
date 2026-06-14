@@ -102,9 +102,7 @@ export default function HomePage() {
               <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold font-display leading-[1.05] tracking-tight mb-6 animate-fade-up">
                 <span className="text-text-main">Market smarter.</span>
                 <br />
-                <span className="text-text-main">Grow faster.</span>
-                <br />
-                <span className="gradient-text">Lead with AI.</span>
+                <span className="gradient-text">Grow faster.</span>
               </h1>
 
               <p className="text-lg md:text-xl text-text-muted leading-relaxed mb-10 animate-fade-up max-w-lg">
@@ -131,8 +129,7 @@ export default function HomePage() {
                   ))}
                 </div>
                 <div className="text-sm">
-                  <p className="text-text-main font-semibold">Join 10,000+ marketers</p>
-                  <p className="text-text-muted">learning to grow smarter.</p>
+                  <p className="text-text-main font-semibold">7+ years hands-on experience across SEO, paid ads, analytics and digital strategy.</p>
                 </div>
               </div>
             </div>
