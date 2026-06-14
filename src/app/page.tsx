@@ -129,7 +129,7 @@ export default function HomePage() {
                   ))}
                 </div>
                 <div className="text-sm">
-                  <p className="text-text-main font-semibold">7+ years hands-on experience across SEO, paid ads, analytics and digital strategy.</p>
+                  <p className="text-text-main font-semibold">7+ years hands-on experience</p>
                 </div>
               </div>
             </div>
@@ -188,7 +188,7 @@ export default function HomePage() {
             
             {/* Box 1: Digital Marketing (Large, spans 2 cols, 2 rows) */}
             <Link href="/insights/digital-marketing" className="group relative md:col-span-2 md:row-span-2 rounded-3xl overflow-hidden card-base border-slate-200 shadow-sm flex flex-col justify-end p-8 min-h-[300px]">
-              <Image src="https://plus.unsplash.com/premium_photo-1684341008285-3da3c563143e?q=80&w=2064&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Digital Marketing" fill className="object-cover opacity-40 group-hover:opacity-50 group-hover:scale-105 transition-all duration-700" />
+              <Image src="https://images.unsplash.com/photo-1711097383282-28097ae16b1d?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Digital Marketing" fill className="object-cover opacity-40 group-hover:opacity-50 group-hover:scale-105 transition-all duration-700" />
               <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-transparent" />
               <div className="relative z-10">
                 <div className="w-12 h-12 rounded-xl bg-primary/20 backdrop-blur-md flex items-center justify-center mb-4">
