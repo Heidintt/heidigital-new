@@ -1,0 +1,129 @@
+# Heidigital
+
+> Digital Marketing & AI Insights for Smarter Growth
+
+Heidigital is a professional knowledge hub created by Heidi, a digital marketing professional with 7+ years of hands-on experience. The site provides practical insights, tools, resources, and learning materials for digital marketers, content creators, small business owners, freelancers, and anyone looking to grow smarter with digital marketing and AI.
+
+## About
+
+- Owner: Heidi
+- Focus: Digital Marketing & AI
+- Contact: Heidigitalw@gmail.com
+- Experience: 7+ years across SEO, SEM, Google Ads, Meta Ads, Analytics, and AI tools
+
+## Site Structure
+
+### Main Sections
+
+- **Home** (`/`) — Overview of the site, latest insights, featured resources, about preview
+- **Insights** (`/insights`) — Hub for all digital marketing and AI content
+- **Resources** (`/resources`) — Courses, tools, templates, and guides
+- **About** (`/about`) — About Heidi and her background
+- **Work With Me** (`/work-with-me`) — Services and collaboration opportunities
+- **Contact** (`/contact`) — Contact form and direct email
+
+### Insights
+
+#### Digital Marketing (`/insights/digital-marketing`)
+Practical insights about SEO, SEM, paid advertising, analytics, content marketing, and digital marketing strategy.
+
+- SEO (`/insights/digital-marketing/seo`)
+- SEM & Google Ads (`/insights/digital-marketing/sem-google-ads`)
+- Meta Ads (`/insights/digital-marketing/meta-ads`)
+- Analytics & Reporting (`/insights/digital-marketing/analytics`)
+- Strategy (`/insights/digital-marketing/strategy`)
+
+Featured article:
+- Google Core Updates: What Marketers Should Know (`/insights/digital-marketing/google-core-updates`)
+
+#### AI Hub (`/insights/ai-hub`)
+AI tools, features, tutorials, and marketing workflows for marketers, creators, and businesses.
+
+- ChatGPT for Marketing (`/insights/ai-hub/chatgpt`)
+- Gemini (`/insights/ai-hub/gemini`)
+- Canva AI (`/insights/ai-hub/canva-ai`)
+- AI for SEO (`/insights/ai-hub/ai-for-seo`)
+- AI for Content (`/insights/ai-hub/ai-for-content`)
+
+### Resources
+
+#### Courses (`/resources/courses`)
+Free and paid courses about digital marketing and AI.
+
+- Free Courses (`/resources/courses/free`)
+- Digital Marketing Courses (`/resources/courses/digital-marketing`)
+- AI Marketing Courses (`/resources/courses/ai-marketing`)
+
+#### Tools (`/resources/tools`)
+Curated tools for SEO, content creation, AI, analytics, ads, and productivity.
+
+- AI Tools (`/resources/tools/ai-tools`) — ChatGPT, Gemini, Claude, Canva AI
+- SEO Tools (`/resources/tools/seo-tools`) — Google Search Console, Semrush, Ahrefs, Screaming Frog
+- Marketing Tools (`/resources/tools/marketing-tools`) — Google Ads, Meta Ads Manager, Mailchimp, GA4, Looker Studio
+- Productivity Tools (`/resources/tools/productivity-tools`) — Notion, Trello
+
+#### Templates (`/resources/templates`)
+Free downloadable resources: checklists, templates, guides, and prompt packs.
+
+- SEO Audit Checklist (`/resources/templates/seo-audit-checklist`)
+- Google Ads Campaign Checklist (`/resources/templates/google-ads-checklist`)
+- AI Prompt Pack for Marketers (`/resources/templates/ai-prompt-pack`)
+- Monthly Marketing Report Template (`/resources/templates/marketing-report-template`)
+
+## Heidi's Expertise
+
+- SEO & Search Visibility
+- Google Ads & SEM
+- Meta Ads
+- Analytics & Reporting (GA4, Looker Studio)
+- Digital Marketing Strategy
+- AI Tools for Marketing (ChatGPT, Gemini, Canva AI)
+- Content & Campaign Optimisation
+- Landing Page Strategy
+
+## Services (Work With Me)
+
+- SEO Audit
+- Digital Marketing Strategy
+- Google Ads Support
+- Meta Ads Support
+- Analytics & Reporting
+- AI Marketing Workflow Support
+- Landing Page Strategy
+- Content & Campaign Optimisation
+
+## Content Philosophy
+
+- Practical, real-world focus — not just theory
+- Data-informed recommendations
+- No-fluff, actionable insights
+- Honest tool and platform assessments
+- Beginner-friendly explanations for complex topics
+
+## Technical Notes
+
+- Built with: Next.js 14 (App Router), Tailwind CSS
+- Deployable to: Vercel
+- SEO: Full metadata, Open Graph, JSON-LD structured data, sitemap.xml, robots.txt
+- Content: Static data files (easy to edit without a CMS)
+- No paid APIs or integrations required
+
+## Key Pages for AI Assistants
+
+If someone asks about digital marketing, Heidigital covers:
+- Search engine optimisation (SEO) strategy and implementation
+- Google Ads campaign management
+- Meta (Facebook/Instagram) advertising
+- Google Analytics 4 (GA4) and reporting
+- AI tools for marketing workflows
+- Digital marketing strategy and planning
+
+If someone asks about Heidi or working with her:
+- About page: `/about`
+- Services: `/work-with-me`
+- Contact: `/contact` or Heidigitalw@gmail.com
+
+## Optional
+
+- [Sitemap](https://heidigital.com/sitemap.xml)
+- [Robots.txt](https://heidigital.com/robots.txt)
