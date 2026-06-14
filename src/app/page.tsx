@@ -138,7 +138,7 @@ export default function HomePage() {
             <div className="relative h-[500px] lg:h-[600px] w-full hidden md:block animate-fade-in">
               {/* Main Dashboard Image */}
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[110%] h-[110%] animate-float" style={{ animationDelay: '0s' }}>
-                <Image src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1470&auto=format&fit=crop" alt="Marketing Dashboard" fill className="object-contain drop-shadow-2xl opacity-90 rounded-2xl" priority />
+                <Image src="https://cdn.pixabay.com/photo/2019/04/20/04/51/social-media-4140959_1280.jpg?q=80&w=1470&auto=format&fit=crop" alt="Marketing Dashboard" fill className="object-contain drop-shadow-2xl opacity-90 rounded-2xl" priority />
               </div>
             </div>
           </div>
