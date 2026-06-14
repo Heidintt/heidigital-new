@@ -47,7 +47,7 @@ export default function CourseCard({ course }: CourseCardProps) {
           {course.description}
         </p>
 
-        <div className="flex items-center justify-between pt-4 border-t border-white/[0.06]">
+        <div className="flex items-center justify-between pt-4 border-t border-slate-200">
           <div className="flex items-center gap-4 text-xs text-text-muted">
             <span className="flex items-center gap-1">
               <Clock className="w-3 h-3" />

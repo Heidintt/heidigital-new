@@ -18,7 +18,7 @@ export default function ArticleCard({ article, variant = "default" }: ArticleCar
 
   if (variant === "compact") {
     return (
-      <Link href={href} className="group flex items-start gap-4 py-4 border-b border-white/[0.06] last:border-0 hover:opacity-80 transition-opacity">
+      <Link href={href} className="group flex items-start gap-4 py-4 border-b border-slate-200 last:border-0 hover:opacity-80 transition-opacity">
         {article.imageUrl && (
           <div className="relative w-20 h-20 rounded-lg overflow-hidden flex-shrink-0 mt-1">
             <Image src={article.imageUrl} alt={article.title} fill className="object-cover" />
@@ -88,7 +88,7 @@ export default function ArticleCard({ article, variant = "default" }: ArticleCar
         <p className="text-sm text-text-muted leading-relaxed flex-1 mb-5">
           {article.excerpt}
         </p>
-        <div className="flex items-center justify-between pt-4 border-t border-white/[0.06]">
+        <div className="flex items-center justify-between pt-4 border-t border-slate-200">
           <div className="flex items-center gap-3 text-xs text-text-muted">
             <span>{formattedDate}</span>
             <span className="flex items-center gap-1">

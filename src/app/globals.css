@@ -3,24 +3,24 @@
 @import "tailwindcss";
 
 @theme {
-  --color-background: #070B1A;
-  --color-background-secondary: #0F172A;
-  --color-card: #111827;
-  --color-card-hover: #1a2234;
+  --color-background: #FFFDE7;
+  --color-background-secondary: #FFF9C4;
+  --color-card: #FFFFFF;
+  --color-card-hover: #FAFAFA;
   --color-primary: #2563EB;
   --color-primary-hover: #1d4ed8;
-  --color-accent: #38BDF8;
-  --color-gold: #D8B67C;
-  --color-text-main: #F8FAFC;
-  --color-text-muted: #94A3B8;
+  --color-accent: #0284C7;
+  --color-gold: #B48D4D;
+  --color-text-main: #1E293B;
+  --color-text-muted: #475569;
 
   --font-sans: "Inter", system-ui, sans-serif;
   --font-display: "DM Sans", system-ui, sans-serif;
 
   --shadow-glow: 0 0 40px rgba(37, 99, 235, 0.15);
   --shadow-glow-sm: 0 0 20px rgba(37, 99, 235, 0.1);
-  --shadow-card: 0 4px 24px rgba(0,0,0,0.4);
-  --shadow-card-hover: 0 8px 40px rgba(37,99,235,0.2);
+  --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.05);
+  --shadow-card-hover: 0 8px 40px rgba(37, 99, 235, 0.1);
 }
 
 @layer base {

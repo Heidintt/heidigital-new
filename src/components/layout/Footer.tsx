@@ -6,7 +6,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-background-secondary border-t border-white/[0.08] mt-auto">
+    <footer className="bg-background-secondary border-t border-slate-200 mt-auto">
       {/* Main footer */}
       <div className="container-max py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12">
@@ -88,7 +88,7 @@ export default function Footer() {
       </div>
 
       {/* Bottom bar */}
-      <div className="border-t border-white/[0.06]">
+      <div className="border-t border-slate-200">
         <div className="container-max py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-xs text-text-muted">
             © {currentYear} Heidigital. All rights reserved.

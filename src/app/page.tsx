@@ -149,7 +149,7 @@ export default function HomePage() {
       </section>
 
       {/* Infinite Marquee */}
-      <section className="py-6 border-y border-white/[0.05] bg-background-secondary overflow-hidden relative">
+      <section className="py-6 border-y border-slate-200 bg-background-secondary overflow-hidden relative">
         <div className="absolute left-0 top-0 bottom-0 w-24 bg-gradient-to-r from-background-secondary to-transparent z-10" />
         <div className="absolute right-0 top-0 bottom-0 w-24 bg-gradient-to-l from-background-secondary to-transparent z-10" />
         
@@ -173,7 +173,7 @@ export default function HomePage() {
 
       {/* Bento Grid Hub */}
       <section className="section-padding bg-background relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/hero-bg.png')] opacity-10 mix-blend-screen bg-cover bg-center pointer-events-none" />
+        <div className="absolute inset-0 bg-[url('/images/hero-bg.png')] opacity-5 mix-blend-multiply bg-cover bg-center pointer-events-none" />
         
         <div className="container-max relative z-10">
           <div className="text-center mb-16">
@@ -190,7 +190,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 lg:h-[600px]">
             
             {/* Box 1: Digital Marketing (Large, spans 2 cols, 2 rows) */}
-            <Link href="/insights/digital-marketing" className="group relative md:col-span-2 md:row-span-2 rounded-3xl overflow-hidden card-base border-white/10 flex flex-col justify-end p-8 min-h-[300px]">
+            <Link href="/insights/digital-marketing" className="group relative md:col-span-2 md:row-span-2 rounded-3xl overflow-hidden card-base border-slate-200 shadow-sm flex flex-col justify-end p-8 min-h-[300px]">
               <Image src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop" alt="Digital Marketing" fill className="object-cover opacity-40 group-hover:opacity-50 group-hover:scale-105 transition-all duration-700" />
               <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-transparent" />
               <div className="relative z-10">
@@ -206,7 +206,7 @@ export default function HomePage() {
             </Link>
 
             {/* Box 2: AI Hub (Square) */}
-            <Link href="/insights/ai-hub" className="group relative rounded-3xl overflow-hidden card-base border-white/10 p-8 flex flex-col min-h-[280px]">
+            <Link href="/insights/ai-hub" className="group relative rounded-3xl overflow-hidden card-base border-slate-200 shadow-sm p-8 flex flex-col min-h-[280px]">
               <div className="absolute inset-0 bg-purple-900/20 group-hover:bg-purple-900/30 transition-colors" />
               <div className="absolute -top-10 -right-10 w-40 h-40 bg-purple-500/20 rounded-full blur-2xl" />
               <div className="relative z-10 flex-1 flex flex-col">
@@ -224,7 +224,7 @@ export default function HomePage() {
             </Link>
 
             {/* Box 3: Templates (Square) */}
-            <Link href="/resources/templates" className="group relative rounded-3xl overflow-hidden card-base border-white/10 p-8 flex flex-col min-h-[280px]">
+            <Link href="/resources/templates" className="group relative rounded-3xl overflow-hidden card-base border-slate-200 shadow-sm p-8 flex flex-col min-h-[280px]">
               <div className="absolute inset-0 bg-accent/5 group-hover:bg-accent/10 transition-colors" />
               <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-accent/20 rounded-full blur-2xl" />
               <div className="relative z-10 flex-1 flex flex-col">
@@ -246,9 +246,9 @@ export default function HomePage() {
       </section>
 
       {/* Expertise Grid */}
-      <section className="section-padding bg-background-secondary relative overflow-hidden border-t border-white/[0.05]">
+      <section className="section-padding bg-background-secondary relative overflow-hidden border-t border-slate-200">
         {/* Background Grid Pattern */}
-        <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff05_1px,transparent_1px),linear-gradient(to_bottom,#ffffff05_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_50%,#000_70%,transparent_100%)]" />
+        <div className="absolute inset-0 bg-[linear-gradient(to_right,#0000000a_1px,transparent_1px),linear-gradient(to_bottom,#0000000a_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_50%,#000_70%,transparent_100%)]" />
         
         <div className="container-max relative z-10">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -315,7 +315,7 @@ export default function HomePage() {
       </section>
 
       {/* Featured Resources Banner */}
-      <section className="py-24 bg-background-secondary relative overflow-hidden border-t border-white/[0.05]">
+      <section className="py-24 bg-background-secondary relative overflow-hidden border-t border-slate-200">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-accent/5 pointer-events-none" />
         <div className="container-max relative z-10">
           <div className="grid lg:grid-cols-2 gap-12 items-center">

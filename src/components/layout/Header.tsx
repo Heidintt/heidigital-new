@@ -63,7 +63,7 @@ export default function Header() {
       ref={headerRef}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? "bg-background/95 backdrop-blur-xl border-b border-white/[0.08] shadow-[0_4px_24px_rgba(0,0,0,0.4)]"
+          ? "bg-background/95 backdrop-blur-xl border-b border-slate-200 shadow-sm"
           : "bg-transparent"
       }`}
     >
@@ -108,8 +108,8 @@ export default function Header() {
                     onMouseLeave={handleMouseLeaveItem}
                   >
                     <button
-                      className={`nav-link flex items-center gap-1 px-3 py-2 rounded-lg hover:bg-white/5 ${
-                        activeMega === item.label ? "text-text-main bg-white/5" : ""
+                      className={`nav-link flex items-center gap-1 px-3 py-2 rounded-lg hover:bg-slate-100 ${
+                        activeMega === item.label ? "text-text-main bg-slate-100" : ""
                       }`}
                       aria-expanded={activeMega === item.label}
                       aria-haspopup="true"
@@ -144,8 +144,8 @@ export default function Header() {
                     onMouseLeave={handleMouseLeaveItem}
                   >
                     <button
-                      className={`nav-link flex items-center gap-1 px-3 py-2 rounded-lg hover:bg-white/5 ${
-                        activeDropdown === item.label ? "text-text-main bg-white/5" : ""
+                      className={`nav-link flex items-center gap-1 px-3 py-2 rounded-lg hover:bg-slate-100 ${
+                        activeDropdown === item.label ? "text-text-main bg-slate-100" : ""
                       }`}
                       aria-expanded={activeDropdown === item.label}
                       aria-haspopup="true"
@@ -160,7 +160,7 @@ export default function Header() {
 
                     {activeDropdown === item.label && (
                       <div
-                        className="absolute top-full left-0 mt-2 w-48 bg-card border border-white/10 rounded-xl shadow-card overflow-hidden animate-slide-down"
+                        className="absolute top-full left-0 mt-2 w-48 bg-card border border-slate-200 rounded-xl shadow-card overflow-hidden animate-slide-down"
                         onMouseEnter={handleMouseEnterMenu}
                         onMouseLeave={handleMouseLeaveMenu}
                       >
@@ -168,7 +168,7 @@ export default function Header() {
                           <Link
                             key={link.href}
                             href={link.href}
-                            className="block px-4 py-3 text-sm text-text-muted hover:text-text-main hover:bg-white/5 transition-colors border-b border-white/5 last:border-0"
+                            className="block px-4 py-3 text-sm text-text-muted hover:text-text-main hover:bg-slate-100 transition-colors border-b border-slate-100 last:border-0"
                             onClick={() => setActiveDropdown(null)}
                           >
                             {link.label}
@@ -184,7 +184,7 @@ export default function Header() {
                 <Link
                   key={item.label}
                   href={item.href!}
-                  className="nav-link px-3 py-2 rounded-lg hover:bg-white/5"
+                  className="nav-link px-3 py-2 rounded-lg hover:bg-slate-100"
                 >
                   {item.label}
                 </Link>
@@ -206,7 +206,7 @@ export default function Header() {
 
       {/* Mobile Navigation */}
       {mobileOpen && (
-        <div className="md:hidden bg-background/98 backdrop-blur-xl border-t border-white/[0.08] max-h-[calc(100vh-4rem)] overflow-y-auto">
+        <div className="md:hidden bg-background/98 backdrop-blur-xl border-t border-slate-200 max-h-[calc(100vh-4rem)] overflow-y-auto">
           <nav className="container-max py-4 space-y-1" aria-label="Mobile navigation">
             {navigation.map((item) => {
               if (item.isCTA) {
@@ -235,7 +235,7 @@ export default function Header() {
                 return (
                   <div key={item.label}>
                     <button
-                      className="w-full flex items-center justify-between px-3 py-3 text-text-muted hover:text-text-main rounded-lg hover:bg-white/5 transition-colors"
+                      className="w-full flex items-center justify-between px-3 py-3 text-text-muted hover:text-text-main rounded-lg hover:bg-slate-100 transition-colors"
                       onClick={() =>
                         setMobileExpanded(isExpanded ? null : item.label)
                       }
@@ -248,7 +248,7 @@ export default function Header() {
                     </button>
 
                     {isExpanded && (
-                      <div className="ml-3 mt-1 space-y-0.5 border-l border-white/10 pl-4">
+                      <div className="ml-3 mt-1 space-y-0.5 border-l border-slate-200 pl-4">
                         {item.megaMenu ? (
                           item.megaMenu.sections.map((section) => (
                             <div key={section.heading} className="mb-3">
@@ -291,7 +291,7 @@ export default function Header() {
                 <Link
                   key={item.label}
                   href={item.href!}
-                  className="block px-3 py-3 text-text-muted hover:text-text-main font-medium rounded-lg hover:bg-white/5 transition-colors"
+                  className="block px-3 py-3 text-text-muted hover:text-text-main font-medium rounded-lg hover:bg-slate-100 transition-colors"
                   onClick={closeMobile}
                 >
                   {item.label}
@@ -315,10 +315,10 @@ function MegaMenuPanel({
   const colCount = menu.sections.length + (menu.featured ? 1 : 0);
   return (
     <div
-      className={`bg-card/95 backdrop-blur-2xl border border-white/10 rounded-2xl shadow-[0_20px_60px_rgba(0,0,0,0.6)] overflow-hidden`}
+      className={`bg-card/95 backdrop-blur-2xl border border-slate-200 rounded-2xl shadow-xl overflow-hidden`}
       style={{ width: colCount === 3 ? "780px" : "580px" }}
     >
-      <div className={`grid divide-x divide-white/[0.06]`} style={{ gridTemplateColumns: `repeat(${colCount}, 1fr)` }}>
+      <div className={`grid divide-x divide-slate-200`} style={{ gridTemplateColumns: `repeat(${colCount}, 1fr)` }}>
         {menu.sections.map((section) => (
           <div key={section.heading} className="p-6">
             <h3 className="text-xs font-semibold text-text-muted uppercase tracking-wider mb-1">
@@ -332,7 +332,7 @@ function MegaMenuPanel({
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-text-muted hover:text-text-main hover:bg-white/5 transition-all group"
+                    className="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-text-muted hover:text-text-main hover:bg-slate-100 transition-all group"
                     onClick={onClose}
                   >
                     <ChevronRight className="w-3 h-3 text-primary opacity-0 group-hover:opacity-100 -translate-x-1 group-hover:translate-x-0 transition-all" />
