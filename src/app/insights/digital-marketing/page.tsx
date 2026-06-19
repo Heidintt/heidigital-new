@@ -64,7 +64,7 @@ const topicCards = [
     icon: Search,
     label: "SEO",
     description: "Keyword research, on-page optimisation, technical SEO, Core Web Vitals, and link building.",
-    href: "/insights/digital-marketing/seo",
+    href: "/insights/digital-marketing",
     count: "Articles & guides",
     color: "from-blue-500/15 to-cyan-500/5",
     iconBg: "bg-blue-500/10 border-blue-500/20",
@@ -74,7 +74,7 @@ const topicCards = [
     icon: Target,
     label: "SEM & Google Ads",
     description: "Campaign structure, bidding strategies, Quality Score, Performance Max, and ROAS optimisation.",
-    href: "/insights/digital-marketing/sem-google-ads",
+    href: "/insights/digital-marketing",
     count: "Articles & guides",
     color: "from-emerald-500/15 to-teal-500/5",
     iconBg: "bg-emerald-500/10 border-emerald-500/20",
@@ -84,7 +84,7 @@ const topicCards = [
     icon: Users,
     label: "Meta Ads",
     description: "Audience targeting, custom audiences, creative testing, and campaign optimisation for Facebook and Instagram.",
-    href: "/insights/digital-marketing/meta-ads",
+    href: "/insights/digital-marketing",
     count: "Articles & guides",
     color: "from-indigo-500/15 to-blue-500/5",
     iconBg: "bg-indigo-500/10 border-indigo-500/20",
@@ -94,7 +94,7 @@ const topicCards = [
     icon: BarChart3,
     label: "Analytics",
     description: "Google Analytics 4, Looker Studio dashboards, conversion tracking, and data-driven decisions.",
-    href: "/insights/digital-marketing/analytics",
+    href: "/insights/digital-marketing",
     count: "Articles & guides",
     color: "from-amber-500/15 to-orange-500/5",
     iconBg: "bg-amber-500/10 border-amber-500/20",
@@ -104,7 +104,7 @@ const topicCards = [
     icon: Lightbulb,
     label: "Strategy",
     description: "Full-funnel digital marketing strategy, channel planning, audience research, and measuring ROI.",
-    href: "/insights/digital-marketing/strategy",
+    href: "/insights/digital-marketing",
     count: "Articles & guides",
     color: "from-rose-500/15 to-pink-500/5",
     iconBg: "bg-rose-500/10 border-rose-500/20",
@@ -162,7 +162,7 @@ export default function DigitalMarketingPage() {
       </section>
 
       {/* Filter Tabs (visual only) */}
-      <section className="bg-background border-b border-white/[0.06] sticky top-0 z-10 backdrop-blur-sm">
+      <section className="bg-background border-b border-slate-200 sticky top-0 z-10 backdrop-blur-sm">
         <div className="container-max">
           <div className="flex items-center gap-2 overflow-x-auto py-4 scrollbar-none">
             {filterTabs.map((tab) => (
@@ -172,7 +172,7 @@ export default function DigitalMarketingPage() {
                 className={`flex-shrink-0 px-4 py-1.5 rounded-full text-sm font-medium transition-colors ${
                   tab.active
                     ? "bg-primary text-white"
-                    : "bg-white/5 text-text-muted hover:text-text-main hover:bg-white/10"
+                    : "bg-slate-100 text-text-muted hover:text-text-main hover:bg-slate-200"
                 }`}
               >
                 {tab.label}
@@ -257,7 +257,7 @@ export default function DigitalMarketingPage() {
                 <input
                   type="email"
                   placeholder="Your email address"
-                  className="flex-1 px-4 py-3 rounded-lg bg-white/5 border border-white/10 text-text-main placeholder:text-text-muted text-sm focus:outline-none focus:border-primary/50 transition-colors"
+                  className="flex-1 px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 text-text-main placeholder:text-text-muted text-sm focus:outline-none focus:border-primary/50 transition-colors"
                 />
                 <button
                   type="button"

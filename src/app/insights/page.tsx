@@ -78,14 +78,14 @@ const mainCategories = [
 ];
 
 const subCategories = [
-  { icon: Search, label: "SEO", href: "/insights/digital-marketing/seo", parent: "Digital Marketing" },
-  { icon: Target, label: "SEM & Google Ads", href: "/insights/digital-marketing/sem-google-ads", parent: "Digital Marketing" },
-  { icon: Users, label: "Meta Ads", href: "/insights/digital-marketing/meta-ads", parent: "Digital Marketing" },
-  { icon: BarChart3, label: "Analytics", href: "/insights/digital-marketing/analytics", parent: "Digital Marketing" },
-  { icon: Lightbulb, label: "Strategy", href: "/insights/digital-marketing/strategy", parent: "Digital Marketing" },
-  { icon: Sparkles, label: "ChatGPT", href: "/insights/ai-hub/chatgpt", parent: "AI Hub" },
-  { icon: Cpu, label: "Gemini", href: "/insights/ai-hub/gemini", parent: "AI Hub" },
-  { icon: PenTool, label: "Canva AI", href: "/insights/ai-hub/canva-ai", parent: "AI Hub" },
+  { icon: Search, label: "SEO", href: "/insights/digital-marketing", parent: "Digital Marketing" },
+  { icon: Target, label: "SEM & Google Ads", href: "/insights/digital-marketing", parent: "Digital Marketing" },
+  { icon: Users, label: "Meta Ads", href: "/insights/digital-marketing", parent: "Digital Marketing" },
+  { icon: BarChart3, label: "Analytics", href: "/insights/digital-marketing", parent: "Digital Marketing" },
+  { icon: Lightbulb, label: "Strategy", href: "/insights/digital-marketing", parent: "Digital Marketing" },
+  { icon: Sparkles, label: "ChatGPT", href: "/insights/ai-hub", parent: "AI Hub" },
+  { icon: Cpu, label: "Gemini", href: "/insights/ai-hub", parent: "AI Hub" },
+  { icon: PenTool, label: "Canva AI", href: "/insights/ai-hub", parent: "AI Hub" },
 ];
 
 export default function InsightsPage() {

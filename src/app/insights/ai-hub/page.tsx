@@ -58,7 +58,7 @@ const toolCards = [
     useCase: "Content writing, ad copy, email drafts, brainstorming",
     description:
       "The most widely used AI assistant for marketers. Learn how to use it for content briefs, campaign ideation, ad copy, and daily workflow automation.",
-    href: "/insights/ai-hub/chatgpt",
+    href: "/insights/ai-hub",
     gradient: "from-emerald-500/15 to-teal-500/5",
     iconBg: "bg-emerald-500/10 border-emerald-500/20",
     iconColor: "text-emerald-400",
@@ -71,7 +71,7 @@ const toolCards = [
     useCase: "Research, content planning, data analysis",
     description:
       "Google's AI with deep Workspace integration. Perfect for market research, summarising long documents, competitor analysis, and content planning.",
-    href: "/insights/ai-hub/gemini",
+    href: "/insights/ai-hub",
     gradient: "from-blue-500/15 to-cyan-500/5",
     iconBg: "bg-blue-500/10 border-blue-500/20",
     iconColor: "text-blue-400",
@@ -84,7 +84,7 @@ const toolCards = [
     useCase: "Social graphics, design, presentations",
     description:
       "Magic Write, AI image generation, and Magic Design make Canva an AI powerhouse for marketers who don't have a design team.",
-    href: "/insights/ai-hub/canva-ai",
+    href: "/insights/ai-hub",
     gradient: "from-purple-500/15 to-indigo-500/5",
     iconBg: "bg-purple-500/10 border-purple-500/20",
     iconColor: "text-purple-400",
@@ -97,7 +97,7 @@ const toolCards = [
     useCase: "Keyword research, content optimisation, technical SEO",
     description:
       "Discover how AI tools are transforming keyword research, content brief creation, on-page SEO, and technical auditing for faster, smarter results.",
-    href: "/insights/ai-hub/ai-for-seo",
+    href: "/insights/ai-hub",
     gradient: "from-amber-500/15 to-orange-500/5",
     iconBg: "bg-amber-500/10 border-amber-500/20",
     iconColor: "text-amber-400",
@@ -110,7 +110,7 @@ const toolCards = [
     useCase: "Blog posts, social media, video scripts",
     description:
       "Using AI to create content without losing quality or authenticity. Best practices, workflows, and practical tips for content marketers.",
-    href: "/insights/ai-hub/ai-for-content",
+    href: "/insights/ai-hub",
     gradient: "from-rose-500/15 to-pink-500/5",
     iconBg: "bg-rose-500/10 border-rose-500/20",
     iconColor: "text-rose-400",

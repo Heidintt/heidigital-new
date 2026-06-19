@@ -11,9 +11,9 @@ const BASE_URL = "https://heidigital.com";
 export const PERSON = {
   "@type": "Person",
   "@id": `${BASE_URL}/#person`,
-  name: "Heidi",
+  name: "Heidi Nguyen",
   url: `${BASE_URL}/about`,
-  jobTitle: "Digital Marketing Professional",
+  jobTitle: "Digital Marketing Executive & Founder of Heidigital",
   description:
     "Digital marketing professional with 7+ years of hands-on experience in SEO, SEM, paid advertising, analytics, and AI tools.",
   knowsAbout: [
